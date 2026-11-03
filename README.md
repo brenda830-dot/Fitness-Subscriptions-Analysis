@@ -1,60 +1,52 @@
-Fitness Subscriptions Analysis
+# Fitness Subscription Analytics
 
-Cohort Analysis
-The Cohort Analysis shows how customer retention changes month by month after customers initially subscribe.
-The dashboard groups customers according to their subscription start month and uses a Cohort index to track their activity 
-over subsequent months. The different colors distinguish the 2024 cohorts (blue) from the 2025 Cohort(orange).
-The dashboard shows a gradual decline in customer numbers as the subscription period increases. This suggests that
-that some customers stop generating transactions over time.
-Key findings
-Customer retention: The 2024 cohorts generally show a gradual decrease in customer numbers as the months progress.
-2024 performance:The customers who joined in early 2024 continue generating transactions across many subsequent months, with some
-January 2024 customer still appearing active at cohort month 24.
-2025 performance: The 2025 cohorts also show declining customer activity over time, particularly as the Cohort index increases.
-Customer activity: The number of customers decreases as the time since their initial subscription increases, indicating potential customer churn.
-Retention patterns: The cohort matrix makes it easier to compare customer behavior across different subscription start months and identify
-periods where retention declines.
-Conclusion
-The Cohort analysis indicates that customer activity decreases over time for both the 2024 and 2025 cohorts. Although some customers 
-remain active for an extended period, the gradual decline suggests that customer retention is an important area for improvement.
-The business should focus on understanding why customers stop subscribing or making transactions and introduce retention strategies
-to encourage customers to maintain their subscription for longer.
-Revenue Forecast
-The Revenue Forecast dashboard, this analysis examines historical monthly subscription revenue from March 2024 through 
-January 2026 and uses Tableau's forecasting feature to predict revenue for the next 12 months.
-The revenue Forecast shows that monthly subscription revenue fluctuates over time, with some months generating significantly
-higher revenue than others.
-The historical data shows an increase in revenue toward the end of 2025, followed by a decline in January2026. Tableau predict
-monthly revenue will remain relatively stable over the next 12 months, at approximately 15,035 per month.
-Revenue fluctuations: Historical revenue varies considerably from month to month, indicating inconsistent monthly subscription revenue.
-Revenue growth: Revenue increased significantly toward the end of 2025, reaching approximately 34,427 in December 2025.
-January decline: Revenue dropped to approximately 3,582 in January 2026 after the December peak.
-Expected revenue: Tableau forecasts monthly revenue of approximately 15,035 throughout the forecast period.
-Seasonality: The historical revenue shows fluctuations and possible seasonal patterns.
-However, the forecast appears relatively flat, so there is no strong evidence of a recurring seasonal pattern in the 
-forecast itself.
-The revenue Forecast suggests that the fitness subscription business can expect relatively stable monthly subscription revenue over 
-the next 12 months, at approximately 15,035 per month.
-Although historical revenue experienced significant fluctuations, the forecast indicates a more consistent revenue outlook.
-The business should focus on improving customer retention, monitoring monthly revenue changes, and identifying the factors responsible 
-for revenue peaks and declines
+## Customer Cohort Analysis
 
+Question: After how many months do customers typically cancel?
 
+### Findings
 
+- [Month index with the largest drop, and the retention % before and after]
 
- CAC vs. LTV Analysis
- The dashboard shows that cumulative revenue increases overtime, while cumulative CAC also increases as more customers are acquired.
- The most important observation is that revenue grows faster than acquisition costs. This indicates that customers are generating increasing 
- value for the business and that the investment in customer acquisition can become profitable over time
- key findings
- Revenue growth:Cumulative revenue increases significantly throughout the period, reaching approximately 2.59 million by December 2025.
- Acquisition costs:Cumulative CAC also increases over time, reaching approximately 845,345 by December 2025.
- Breaking-even point: Comparing the visible Cumulative values, revenue first exceeds CAC in approximately April 2024.
- Positive performance:By the end of 2025, Cumulative revenue is substantially higher than Cumulative acquisition costs.
- Business opportunity:The business should continue focusing on customer retention and acquiring customers through channels that generate strong lifetime value.
- Conclusion
- The analysis suggests that the fitness subscription business has a strong revenue growth compared with its customer acquisition costs.
- By December 2025, Cumulative revenue had reached approximately 2.59 million, compared with Cumulative CAC of approximately 845,345.
- This indicates that the revenue generated by customers is significantly higher than the cost of acquiring them. The business should continue 
- investing in effective customer acquisition strategies while improving customer retention to maximize lifetime value and long-term profitability
- 
+- [How later months compare: gradual or sudden?]
+
+- [Any difference between 2024 and 2025 cohorts, as retention %, not raw counts]
+
+### Conclusion
+
+[One or two sentences: when to act on churn]
+
+## Revenue Forecast
+
+Measure forecast: [Total revenue / Subscription revenue: say which]
+
+Settings: [length, seasonality, interval]
+
+### Findings
+
+- [Expected revenue for the next 12 months, as a total, with the range]
+
+- [Comparison to 2025 actual revenue]
+
+- [Seasonality: what the forecast shows and what the actuals show, with months and figures]
+
+### Conclusion
+
+[What this means for FitnessHub, plus one caveat about confidence]
+
+## CAC vs. LTV
+
+Question: How long do the 2024 and 2025 cohorts take to recover CAC?
+
+### Findings
+
+- 2024 cohort: Total CAC [number], break-even in [month]
+
+- 2025 cohort: Total CAC [number], break-even in [month]
+
+- [Comparison between the two cohorts]
+
+### Conclusion
+
+[Is acquisition spend paying back, and is it getting faster or slower?]
+
